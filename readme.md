@@ -8,11 +8,14 @@ If you don't want to run any code, you can see the results of the project here:
 
 * **Data Storage:** Data is stored in a MongoDB Atlas cluster.
 ![Database Screenshot](./assets/mongodb.png)
-  > mongodb pic
 * **Analysis:** Insights and graphs generated in the Jupyter Notebook.
+> Comparing articles' main categories popularity
 ![Comparing articles' main categories popularity](./assets/main_categories.png)
+> Comparing articles count for GenAI models
 ![Comparing articles count for GenAI models](./assets/genai.png)
+> WordCloud for 2010
 ![WordCloud for 2010](./assets/wordcloud2010.png)
+> WordCloud for 2026
 ![WordCloud for 2026](./assets/wordcloud2026.png)
 
 ---
