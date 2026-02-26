@@ -1,0 +1,18 @@
+services:
+  scraper:
+    build:
+      context: .
+      target: scraper-stage
+    env_file: .env
+    volumes:
+      - .:/app
+
+  full:
+    build:
+      context: .
+      target: full-stage
+    ports:
+      - "8888:8888"
+    env_file: .env
+    volumes:
+      - .:/app

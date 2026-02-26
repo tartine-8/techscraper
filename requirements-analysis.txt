@@ -1,15 +1,11 @@
 gliner
-httpx
 ipywidgets
+jupyter
 matplotlib
+notebook
 pandas
 plotly
-pymongo
-python-dateutil
-python-dotenv
-selectolax
 spacy
 torch
-tqdm
 transformers
 wordcloud

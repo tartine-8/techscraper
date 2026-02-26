@@ -1,0 +1,6 @@
+httpx
+pymongo
+python-dateutil
+python-dotenv
+selectolax
+tqdm
