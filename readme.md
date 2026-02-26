@@ -11,8 +11,19 @@ A modular web scraping and data analysis tool designed to extract technical data
 If you don't want to run any code, you can see the results of the project here:
 
 * **Data Storage:** Data is stored in a MongoDB Atlas cluster.
-<img src='./assets/mongodb.png' alt='Database Screenshot' width='500'>
-<img src='./assets/mongodb2.png' alt='Database Screenshot' width='500'>
+
+You can see here 2 different view of the data stored and get an idea of its schema and size
+
+<table style="width: 100%;">
+  <tr>
+    <td align="center">
+      <img src='./assets/mongodb.png' alt='Database Screenshot' height='100%'>
+    </td>
+    <td align="center">
+      <img src='./assets/mongodb2.png' alt='Database Screenshot' height='100%'>
+    </td>
+  </tr>
+</table>
 
 * **Analysis:** Insights and graphs generated in the Jupyter Notebook.
 
@@ -42,13 +53,15 @@ If you don't want to run any code, you can see the results of the project here:
   </tr>
 </table>
 
+> Context, details and observations are in the notebook.
+
 ---
 
 ### Option B: Run it locally
 
 #### 1. Prerequisites
 * [Install Docker](https://docs.docker.com/get-docker/)
-* You need a MongoDB account. Youc can use your own `MONGO_URI` or ask me for the **Read-Only** access key
+* [Get a MongoDB account](https://account.mongodb.com/account/register) if you want to do the scraping yourself. You can then use your own `MONGO_URI`. Or ask me for the **Read-Only** temporary access key if you want to use the notebook but don't want to deal with MongoDB
 
 #### 2. Configuration
 * Create a `.env` file in the root directory and add your connection string. it should have the following format:
