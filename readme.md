@@ -7,16 +7,17 @@ A modular web scraping and data analysis tool designed to extract technical data
 If you don't want to run any code, you can see the results of the project here:
 
 * **Data Storage:** Data is stored in a MongoDB Atlas cluster.
-![Database Screenshot](./assets/mongodb.png)
+<img src='./assets/mongodb.png' alt='Database Screenshot' width='500'>
+<img src='./assets/mongodb2.png' alt='Database Screenshot' width='500'>
 * **Analysis:** Insights and graphs generated in the Jupyter Notebook.
 > Comparing articles' main categories popularity
-![Comparing articles' main categories popularity](./assets/main_categories.png)
+<img src='./assets/main_categories.png' alt="Comparing articles' main categories popularity" width='500'>
 > Comparing articles count for GenAI models
-![Comparing articles count for GenAI models](./assets/genai.png)
+<img src='./assets/genai.png' alt='Comparing articles count for GenAI models' width='500'>
 > WordCloud for 2010
-![WordCloud for 2010](./assets/wordcloud2010.png)
+<img src='./assets/wordcloud2010.png' alt='WordCloud for 2010' width='500'>
 > WordCloud for 2026
-![WordCloud for 2026](./assets/wordcloud2026.png)
+<img src='./assets/wordcloud2026.png' alt='WordCloud for 2026' width='500'>
 
 ---
 
