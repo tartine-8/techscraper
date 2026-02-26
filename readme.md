@@ -14,10 +14,13 @@ If you don't want to run any code, you can see the results of the project here:
 * **Analysis:** Insights and graphs generated in the Jupyter Notebook.
 > Comparing articles' main categories popularity
 <img src='./assets/main_categories.png' alt="Comparing articles' main categories popularity" width='500'>
+
 > Comparing articles count for GenAI models
 <img src='./assets/genai.png' alt='Comparing articles count for GenAI models' width='500'>
+
 > WordCloud for 2010
 <img src='./assets/wordcloud2010.png' alt='WordCloud for 2010' width='500'>
+
 > WordCloud for 2026
 <img src='./assets/wordcloud2026.png' alt='WordCloud for 2026' width='500'>
 
