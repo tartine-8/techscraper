@@ -1,3 +1,5 @@
+NONE_CLASSIFIED = 'none_classified.pkl'
+
 TECH_STOPWORDS = [
     'first', 'one', 'million', 'millions', 'billion', 'billions',
     'fund', 'funds', 'service', 'services', 'launch', 'launches',
@@ -40,5 +42,33 @@ SUB_CATEGORIES = {
         'palmer luckey': 'luckey|palmer luckey', 
         'austin russell': 'russell|austin russell',
         'jeffrey epstein': 'epstein|jeffrey epstein',
+        'jeff bezos': 'bezos|jeff bezos',
     },
+    'company': {
+        'openai': 'openai',
+        'google': 'google',
+        'apple': 'apple',
+        'tesla': 'tesla',
+        'spotify': 'spotify',
+        'amazon': 'amazon',
+        'tiktok': 'tiktok',
+        'nvidia': 'nvidia',
+        'microsoft': 'microsoft',
+        'spacex': 'spacex',
+        'meta': 'meta',
+        'xai': 'xai',
+        'intel': 'intel',
+        'anthropic': 'anthropic',
+        'x': 'x',
+        'netflix': 'netflix',
+        'ford': 'ford',
+        'youtube': 'youtube',
+        'instagram': 'instagram',
+        'vine': 'vine',
+        'coinbase': 'coinbase',
+        'sony': 'sony',
+        'alphabet': 'alphabet',
+        'moonvalley': 'moonvalley',
+        'adobe': 'adobe',
+    }
 }
