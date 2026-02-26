@@ -9,6 +9,7 @@ If you don't want to run any code, you can see the results of the project here:
 * **Data Storage:** Data is stored in a MongoDB Atlas cluster.
 <img src='./assets/mongodb.png' alt='Database Screenshot' width='500'>
 <img src='./assets/mongodb2.png' alt='Database Screenshot' width='500'>
+
 * **Analysis:** Insights and graphs generated in the Jupyter Notebook.
 > Comparing articles' main categories popularity
 <img src='./assets/main_categories.png' alt="Comparing articles' main categories popularity" width='500'>
