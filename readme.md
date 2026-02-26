@@ -2,7 +2,7 @@
 A modular web scraping and data analysis tool designed to extract technical data and visualize it using Jupyter Notebooks and MongoDB.
 
 * With this project we scrape the [TechCrunch](https://techcrunch.com/latest/) website to get articles and their basic data. The articles are listed chronologically from the newest to the oldest.
-* The code has been optimized to be able to scrape as much  and as fast as possible while remaining safe enough to not be flaged by the source website and also giving options to scrape batches.
+* The code has been optimized to be able to scrape as much  and as fast as possible while remaining safe enough to not be flaged by the source website's firewall and also giving options to scrape in batches.
 * A GitHub Action workflow has been created to scrape the 5 latest pages of the website everyday to keep track of new articles.
 
 ## Choose Your Option
