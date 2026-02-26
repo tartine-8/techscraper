@@ -33,10 +33,11 @@ If you don't want to run any code, you can see the results of the project here:
 * You need a MongoDB account. Youc can use your own `MONGO_URI` or ask me for the **Read-Only** access key
 
 #### 2. Configuration
-* Create a `.env` file in the root direcotry and add your connection string:
+* Create a `.env` file in the root direcotry and add your connection string. it should have the following format:
 ```env
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/techscraper
 ```
+Text after the `@` may differ so no alarm if it isn't the exact same
 
 #### 3. Execution
 * Run only the scrapper (lightweight):
