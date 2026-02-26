@@ -1,6 +1,6 @@
 # TechScraper
 A modular web scraping and data analysis tool designed to extract technical data and visualize it using Jupyter Notebooks and MongoDB.
-A GitHub Action workflow has been created to scrape the 5 latest pages of the website everyday to keep track of new articles.
+* A GitHub Action workflow has been created to scrape the 5 latest pages of the website everyday to keep track of new articles.
 
 ## Choose Your Option
 
