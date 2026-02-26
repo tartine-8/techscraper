@@ -1,0 +1,23 @@
+name: daily techcrunch scrape
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  
+  jobs:
+    scrape:
+      runs-on: ubuntu-latest
+      steps:
+        - name: checkout code
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.11'
+        
+        - name: install dependencies
+          run: |
+            pip install -r requirements-scraper.txt
+
+        - name: run scraper
+          env:
+            MONGO_URI: ${{ secrets.MONGO_URI }}
+          run: python -u scraper.py --pages 5
