@@ -1,0 +1,44 @@
+TECH_STOPWORDS = [
+    'first', 'one', 'million', 'millions', 'billion', 'billions',
+    'fund', 'funds', 'service', 'services', 'launch', 'launches',
+    'way', 'ways', 'tool', 'partner', 'employee', 'sale', 's', 'u', 'm'
+    'new', 'now', 'back', 'next', 'latest', 'future', 'start', 'end',
+    'start up', 'startup', 'startups',
+]
+
+SUB_CATEGORIES = {
+    'ai': {
+        'machine learning': 'machine learning|ml',
+        'deep learning': 'deep learning|reinforment learning|dl|rl',
+        'neural networks': 'neural networks|nn|cnn|rnn',
+        'llm': 'llm|large language model',
+        'generative ai': 'generative ai|genai',
+        'ai chat models': 'chatgpt|gemini|claude|deepseek|grok|copilot|perplexity|llama|mistral',
+        'ai image models': 'dalle|dall e|dall.e|stable diffusion',
+        'ai video models': 'veo|sora|gen2',
+    },
+    'genai models': {
+        'chatgpt': 'chatgpt',
+        'gemini': 'gemini',
+        'claude': 'claude',
+        'deepseek': 'deepseek',
+        'grok': 'grok',
+        'copilot': 'copilot',
+        'perplexity': 'perplexity',
+        'dall e': 'dalle|dall e|dall.e',
+        'stable difusion': 'stable difusion',
+        'veo': 'veo',
+        'sora': 'sora',
+        'gen2': 'gen2',
+    },
+    'people': {
+        'trump': 'trump|donald trump',
+        'musk': 'musk|elon musk',
+        'altman': 'altman|sam altman',
+        'satya nadella': 'nadella|satya nadella', 
+        'mark zuckerberg': 'zuckerberg|mark zuckerberg', 
+        'palmer luckey': 'luckey|palmer luckey', 
+        'austin russell': 'russell|austin russell',
+        'jeffrey epstein': 'epstein|jeffrey epstein',
+    },
+}

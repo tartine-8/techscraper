@@ -1,0 +1,15 @@
+# credentials
+.env
+
+# python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# data & notebooks
+.ipynb_checkpoints
+*.pkl
+
+# virtual environments
+venv/
+env/

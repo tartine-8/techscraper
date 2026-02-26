@@ -1,0 +1,15 @@
+gliner
+httpx
+ipywidgets
+matplotlib
+pandas
+plotly
+pymongo
+python-dateutil
+python-dotenv
+selectolax
+spacy
+torch
+tqdm
+transformers
+wordcloud
