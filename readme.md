@@ -43,7 +43,7 @@ docker-compose run scraper --page P --start S
 ```bash
 docker-compose up full
 ```
-* Then access the Jupyter Notebook at `http://localhost:8888` and open `analysis.ipynb`.
+* Then access the Jupyter Notebook. Lokk in your terminal for a url looking like this: `http://[ip]:8888/tree?token=[token]` with `[ip]` and `[token]` being unique to you. Then open `analysis.ipynb`.
 
 #### 4. Data Analysis
 
